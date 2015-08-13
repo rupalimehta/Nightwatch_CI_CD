@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="googleTest"
+    errors="0" failures="1" hostname="" id="" package="googleTest" skipped="0"
+    tests="1" time="4.343" timestamp="Thu, 13 Aug 2015 14:12:17 GMT">
+  
+    <testcase name="Demo test Emsfile" time="4.343" assertions="3">
+
+    
+
+      <failure message="Failed [equal]: (&#39;piyushkulkarni&#39; == &#39;navneet&#39;)">Failed [equal]: (&#39;piyushkulkarni&#39; == &#39;navneet&#39;): Expected &quot;navneet&quot; but got: &quot;piyushkulkarni&quot;
+    at Object.equal (D:\NodeJsWorkspace_CI\Ems_Nightwatch\node_modules\nightwatch\lib\core\api.js:67:24)
+    at Object.&lt;anonymous&gt; (D:\NodeJsWorkspace_CI\Ems_Nightwatch\tests\googleTest.js:10:17)
+    at Object.&lt;anonymous&gt; (D:\NodeJsWorkspace_CI\Ems_Nightwatch\node_modules\nightwatch\lib\api\element-commands.js:354:20)
+    at HttpRequest.&lt;anonymous&gt; (D:\NodeJsWorkspace_CI\Ems_Nightwatch\node_modules\nightwatch\lib\index.js:311:20)
+    at HttpRequest.emit (events.js:110:17)
+    at HttpRequest.&lt;anonymous&gt; (D:\NodeJsWorkspace_CI\Ems_Nightwatch\node_modules\nightwatch\lib\index.js:334:15)
+    at HttpRequest.emit (events.js:118:17)
+    at IncomingMessage.&lt;anonymous&gt; (D:\NodeJsWorkspace_CI\Ems_Nightwatch\node_modules\nightwatch\lib\http\request.js:148:16)
+    at IncomingMessage.emit (events.js:129:20)
+    at _stream_readable.js:908:16</failure>
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>
