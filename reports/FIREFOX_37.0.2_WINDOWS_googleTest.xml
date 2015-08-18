@@ -5,21 +5,23 @@
 
   <testsuite name="googleTest"
     errors="0" failures="1" hostname="" id="" package="googleTest" skipped="0"
-    tests="1" time="4.343" timestamp="Thu, 13 Aug 2015 14:12:17 GMT">
+    tests="1" time="13.73" timestamp="Tue, 18 Aug 2015 14:29:00 GMT">
   
-    <testcase name="Demo test Emsfile" time="4.343" assertions="3">
+    <testcase name="Demo test Emsfile" time="13.73" assertions="4">
 
     
 
-      <failure message="Failed [equal]: (&#39;piyushkulkarni&#39; == &#39;navneet&#39;)">Failed [equal]: (&#39;piyushkulkarni&#39; == &#39;navneet&#39;): Expected &quot;navneet&quot; but got: &quot;piyushkulkarni&quot;
-    at Object.equal (D:\NodeJsWorkspace_CI\Ems_Nightwatch\node_modules\nightwatch\lib\core\api.js:67:24)
-    at Object.&lt;anonymous&gt; (D:\NodeJsWorkspace_CI\Ems_Nightwatch\tests\googleTest.js:10:17)
-    at Object.&lt;anonymous&gt; (D:\NodeJsWorkspace_CI\Ems_Nightwatch\node_modules\nightwatch\lib\api\element-commands.js:354:20)
+    
+
+      <failure message="elemento body &gt; div.smart-green &gt; table &gt; tbody &gt; tr:nth-child(11) &gt; td:nth-child(2))  no era visible en 1000 ms">elemento body &gt; div.smart-green &gt; table &gt; tbody &gt; tr:nth-child(11) &gt; td:nth-child(2))  no era visible en 1000 ms: Expected &quot;visible&quot; but got: &quot;not found&quot;
+    at F.WaitForElement.fail (D:\NodeJsWorkspace_CI\Ems_Nightwatch\node_modules\nightwatch\lib\api\element-commands\_waitForElement.js:193:15)
+    at F.WaitForElementPresent.elementNotFound (D:\NodeJsWorkspace_CI\Ems_Nightwatch\node_modules\nightwatch\lib\api\element-commands\waitForElementPresent.js:57:15)
+    at Object.&lt;anonymous&gt; (D:\NodeJsWorkspace_CI\Ems_Nightwatch\node_modules\nightwatch\lib\api\element-commands\_waitForElement.js:220:17)
     at HttpRequest.&lt;anonymous&gt; (D:\NodeJsWorkspace_CI\Ems_Nightwatch\node_modules\nightwatch\lib\index.js:311:20)
     at HttpRequest.emit (events.js:110:17)
-    at HttpRequest.&lt;anonymous&gt; (D:\NodeJsWorkspace_CI\Ems_Nightwatch\node_modules\nightwatch\lib\index.js:334:15)
+    at HttpRequest.&lt;anonymous&gt; (D:\NodeJsWorkspace_CI\Ems_Nightwatch\node_modules\nightwatch\lib\index.js:344:15)
     at HttpRequest.emit (events.js:118:17)
-    at IncomingMessage.&lt;anonymous&gt; (D:\NodeJsWorkspace_CI\Ems_Nightwatch\node_modules\nightwatch\lib\http\request.js:148:16)
+    at IncomingMessage.&lt;anonymous&gt; (D:\NodeJsWorkspace_CI\Ems_Nightwatch\node_modules\nightwatch\lib\http\request.js:150:16)
     at IncomingMessage.emit (events.js:129:20)
     at _stream_readable.js:908:16</failure>
 
